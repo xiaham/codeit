@@ -34,7 +34,6 @@ body {
 }
 
 .hero-header .info {
-  /* 이건 지우세요 */
   display: inline-block;  
   line-height: normal;  
 }
@@ -65,3 +64,26 @@ body {
 }
 
 
+  /* 이미지버튼 */
+body {
+  margin: 50px 0;
+}
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.link-container {
+    text-align: center; 
+}
+
+.link-container a:not(:last-child) {
+    margin-right:20px; 
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
